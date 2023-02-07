@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-06T06:35:27Z" name="Suite" finished-at="2023-02-06T06:35:42Z" duration-ms="15309">
+    <groups>
+    </groups>
+    <test started-at="2023-02-06T06:35:27Z" name="Test" finished-at="2023-02-06T06:35:42Z" duration-ms="15309">
+      <class name="org.testCase.TestParameter">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:org.testCase.TestParameter@792b749c]" started-at="2023-02-06T12:05:27Z" name="browserLaunch" finished-at="2023-02-06T12:05:36Z" duration-ms="8546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method is-config="true" signature="before()[pri:0, instance:org.testCase.TestParameter@792b749c]" started-at="2023-02-06T12:05:36Z" name="before" finished-at="2023-02-06T12:05:36Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="test1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.testCase.TestParameter@792b749c]" started-at="2023-02-06T12:05:36Z" name="test1" finished-at="2023-02-06T12:05:42Z" duration-ms="6499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nk7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[967675655]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="after()[pri:0, instance:org.testCase.TestParameter@792b749c]" started-at="2023-02-06T12:05:42Z" name="after" finished-at="2023-02-06T12:05:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="after1()[pri:0, instance:org.testCase.TestParameter@792b749c]" started-at="2023-02-06T12:05:42Z" name="after1" finished-at="2023-02-06T12:05:42Z" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after1 -->
+      </class> <!-- org.testCase.TestParameter -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

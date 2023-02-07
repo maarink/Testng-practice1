@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Listner Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.testCase.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.testCase.TestScript2">
+        <methods>
+          <include name="browserLaunch"/>
+          <include name="before"/>
+          <include name="after"/>
+          <include name="after1"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- org.testCase.TestScript2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Listner Test Suite] -->

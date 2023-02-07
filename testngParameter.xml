@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="fName" value="maari"></parameter>
+  <parameter name="lName" value="nk7"></parameter>
+  <parameter name="city" value="chennai"></parameter>
+  <parameter name="country" value="India"></parameter>
+  <parameter name="phone" value="967675655"></parameter>
+    <classes>
+      <class name="org.testCase.TestParameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
